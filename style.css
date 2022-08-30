@@ -1,0 +1,154 @@
+body {
+  margin-top: 30px;
+}
+
+.top-bar {
+  margin: auto;
+  width: 88%;
+  height: 450px;
+  display: flex;
+  background: rgb(255, 179, 240);
+  /*background: linear-gradient(90deg, rgba(255,179,240,1) 45%, rgba(180,128,212,1) 100%); */
+  background: linear-gradient(
+    90deg,
+    rgba(207, 204, 255, 1) 0%,
+    rgba(254, 225, 249, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-radius: 9px;
+}
+
+.topbar-left {
+  width: 60%;
+  padding-left: 100px;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+.topbar-left p {
+  color: #73777b;
+  font-weight: bold;
+  width: 213px;
+}
+.topbar-left h1 {
+  display: inline-block;
+  font-size: 36px;
+}
+.topbar-right {
+  width: 45%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-top: 50px;
+  font-family: sans-serif;
+}
+.topbar-right h5 {
+  font-weight: 10px;
+  color: #73777b;
+}
+.topbar-right img {
+  width: 38px;
+  height: 38px;
+}
+
+.right {
+  margin-left: 38px;
+  text-align: center;
+}
+
+.right a {
+  text-decoration: none;
+}
+
+.center-bar {
+  margin: auto;
+  width: 80%;
+  height: 230px;
+  display: flex;
+  justify-content: space-around;
+  transform: translate(0px, -200px);
+}
+
+.card {
+  width: 30%px;
+  height: 310px;
+  margin-left: 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 25px 0px;
+  font-family: sans-serif;
+  padding: 30px;
+  box-sizing: border-box;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.card:hover {
+  transform: scale(0.9);
+}
+
+
+.author {
+  font-weight: bold;
+}
+
+.bottom-bar {
+  margin: auto;
+  width: 88%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.sandbox {
+  width: 20%;
+  height: 300px;
+  padding: 0;
+  margin: 0;
+}
+
+.sandbox a {
+  list-style: none;
+  text-decoration: none;
+}
+.sandbox ul li {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+.icons i {
+  margin: 5px;
+}
+
+.sandbox h2 {
+  font-size: 30px;
+  height: 40px;
+}
+
+.sandbox input {
+  width: 120px;
+  height: 30px;
+  border: 1px solid #cfcaca;
+  border-radius: 5px;
+}
+.btn {
+  width: 45px;
+  height: 33px;
+  border: 1px solid #cfcaca;
+  border-radius: 7px;
+  background-color: #f4511e;
+  opacity: 0.6;
+  transition: 0.3s;
+  /*background-color: #f50589; */
+}
+.btn:hover {
+  opacity: 1;
+}
+
+.icons a:hover {
+  opacity: 0.2;
+}
